@@ -61,7 +61,7 @@ nav a:hover {
 section h2 {
     font-family: var(--sectionheader);
     font-size: 40px;
-    margin: 0px 10px -20px;
+    margin: 0px 15px -20px;
 }
 
 /*About Me*/
@@ -96,7 +96,6 @@ section h2 {
     display: flex;
     justify-content: space-evenly;
     margin: 10px 10px 0px 10px;
-    padding: 15px;
     background-color: rgb(216,224,222);
     border-left: var(--border);
 }
