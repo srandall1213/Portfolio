@@ -1,0 +1,131 @@
+:root {
+    /*color schemes*/
+    --sectionheader: 'Dawning of a New Day', cursive;
+    --navcontactfont: 'Quicksand', sans-serif;
+    --blackfont: black;
+    --border: 5px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    margin: 0px 150px; 
+    background-image: url("4.png");
+    color: var(--blackfont);
+}
+
+/*Header Box*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px 0px;
+    padding: 0px 10px 0px 25px;
+    background-color: rgb(242,243,243);
+    border-bottom: var(--border);
+}
+
+/*My Name*/
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+/*Main Background*/
+.mainbg {
+    background-color: white;
+    margin: 0px 40px 20px;
+}
+
+/*Nav Bar*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;    
+}
+
+nav a {
+    font-family: var(--navcontactfont);
+    font-size: larger;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: var(--blackfont);
+}
+  
+nav a:hover {
+    font-style: italic;
+}
+
+/*Headers*/
+section h2 {
+    font-family: var(--sectionheader);
+    font-size: 40px;
+    margin: 0px 10px -20px;
+}
+
+/*About Me*/
+.about {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(223,230,229);
+    border-left: var(--border);
+}
+
+.portrait {
+    height: 300px;
+    width: 175px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+/*My Work*/
+.work {
+    display: grid;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(236,240,240);
+    border-left: var(--border);
+}
+
+/*Contact*/
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px 0px 10px;
+    padding: 15px;
+    background-color: rgb(216,224,222);
+    border-left: var(--border);
+}
+
+.contact ul {
+    display: inline-flex;
+    list-style-type: none;   
+}
+
+.contact li {
+    font-family: var(--navcontactfont);
+    font-size: larger;
+    padding: 5px 20px;
+}
+  
+.contact a:hover {
+    font-style: italic;  
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--blackfont);
+}
+
+/*Thanks for Visiting*/
+footer {
+    text-align: center;
+    font-family: var(--sectionheader);
+    font-size: 50px;
+    padding: 20px;
+    margin-top: -5px;
+}
