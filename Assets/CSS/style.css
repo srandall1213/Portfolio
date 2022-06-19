@@ -3,27 +3,31 @@
     --sectionheader: 'Dawning of a New Day', cursive;
     --navcontactfont: 'Quicksand', sans-serif;
     --blackfont: black;
-    --border: 5px solid black;
+    --thickborder: 5px solid black;
+    --imgborders: 2px solid black;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     line-height: 1.3;
     margin: 0px 150px; 
-    background-image: url("4.png");
+    background-image: url("/Assets/Images/4.png");
     color: var(--blackfont);
 }
 
 /*Header Box*/
 header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 20px 40px 0px;
     padding: 0px 10px 0px 25px;
     background-color: rgb(242,243,243);
-    border-bottom: var(--border);
+    border-bottom: var(--thickborder);
 }
 
 /*My Name*/
@@ -41,6 +45,7 @@ h1 {
 /*Nav Bar*/
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;    
 }
@@ -67,37 +72,64 @@ section h2 {
 /*About Me*/
 .about {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin: 10px;
     padding: 20px;
     background-color: rgb(223,230,229);
-    border-left: var(--border);
+    border-left: var(--thickborder);
 }
 
 .portrait {
     height: 300px;
     width: 175px;
-    margin-right: 20px;
-    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 15px;
+    border: var(--imgborders);
 }
 
 /*My Work*/
 .work {
-    display: grid;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 10px;
-    padding: 20px;
+    padding: 7px 0px 20px 0px;
     background-color: rgb(236,240,240);
-    border-left: var(--border);
+    border-left: var(--thickborder);
+} 
+
+.largework h3 {
+    text-align: center;  
+}
+
+.largework img {
+    height: 250px;
+    width: 250px;
+    border: var(--imgborders);
+}
+
+/*Why isn't this working!!!!*/
+.otherworks h3 {
+    text-align: center;
+}
+
+.otherworks img {
+    height: 225px;
+    width: 225px;
+    border: var(--imgborders); 
 }
 
 /*Contact*/
 .contact {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 10px 10px 0px 10px;
     background-color: rgb(216,224,222);
-    border-left: var(--border);
+    border-left: var(--thickborder);
 }
 
 .contact ul {
@@ -110,9 +142,20 @@ section h2 {
     font-size: larger;
     padding: 5px 20px;
 }
-  
-.contact a:hover {
-    font-style: italic;  
+
+.rotateicon:hover {
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate (0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .contact a {
@@ -128,3 +171,18 @@ footer {
     padding: 20px;
     margin-top: -5px;
 }
+
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    section {
+      width: 50%;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+  }

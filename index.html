@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah's Portfolio</title>
     <!-- CSS Link -->
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./Assets/CSS/style.css"/>
     <!-- Google Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,15 +29,15 @@
         <section>
             <h2 id="About">About Me</h2>
             <div class="about">
-                <img class="portrait" src="./sarahrandall.png" alt="Sarah Randall Image"/>
+                <img class="portrait" src="./Assets/Images/sarahrandall.png" alt="Sarah Randall Image"/>
                 <p>
                  Hello, my name is Sarah Randall. I currently live in Davis County, Utah with my husband and two little kids. I graduated from Utah State University 
                  with a bachelor's degree in Marketing in 2014. After that, I worked at the Huntsman Cancer Hospital and loved it there. Helping people made me feel 
-                 fulfilled in my job. I also got my nail technician license for a creative outlet. My husband got a sales job offer in 2017 that lead us to Cody, WY and St. George, UT. 
+                 fulfilled in my job. I also got my nail technician license for a creative outlet. My husband got a sales job offer that lead us to Cody, WY and St. George, UT. 
                  We are finally back up to Davis County and are happy to be back around family. I have been grateful to be a stay-at-home mom the past several years. 
                  Now that my kids are older, I am entering a new chapter in my life. I am ready to get back to work! I have always been able to get carried away with coding, especially 
-                 the creation part. As a mom, I have become really good at Googling problems and love when I find a good solution. This has already helped me significantly as I am attending the 
-                 University of Utah Full-Stack Developer Bootcamp. Finding an answer that works well is so rewarding! I am also a very organized person and feel that order brings 
+                 the creation part. As a mom, I have become really good at Googling problems and love when I find a solution that works well. This has already helped me significantly as I am attending the 
+                 University of Utah Full-Stack Developer Bootcamp. For me, finding solutions to coding issues has become satisfying. I am also a very organized person and feel that order brings 
                  clarity and efficiency. Learning that this applies to coding, along with many other reasons, has reassured me that coding will be the right fit for my career. 
                 </p>
             </div>    
@@ -45,22 +45,28 @@
         <section>
             <h2 id="Work">My Work</h2>
             <div class="work">
-                <h3>Project One</h3>
-                <img src="" alt="School Project Website Snapshot"/>
-                <h3>Project Two</h3>
-                <img src="" alt="School Project Website Snapshot"/>
-                <h3>Project Three</h3>
-                <img src="" alt="School Project Website Snapshot"/>
+                <div class="largework">
+                <h3>School Week 1 - Homework</h3>
+                <a href="https://srandall1213.github.io/Horiseon/" target="_blank"><img src="/Assets/Images/Homework1.png" alt="Horiseon Marketing Site"/></a>
+                </div>
+                <div class="otherworks">
+                <h3>School Week 2 - Mini Project</h3>
+                <a href="https://srandall1213.github.io/Week-2-Mini-Project/" target="_blank"><img src="/Assets/Images/MiniProject2.png" alt="CSS Code Grid Page"/></a>
+                </div>
+                <div class="otherworks">
+                <h3>School Week 1 - Mini Project</h3>
+                <a href="https://srandall1213.github.io/Week-1-Mini-Project/" target="_blank"><img src="/Assets/Images/MiniProject1.png" alt="Nail Tech Website"></a>
+                </div>
             </div>
         </section>
         <section> 
             <h2 id="Contact">Contact</h2>
             <div class="contact">
                 <ul>
-                    <li>385.502.9822</li>
-                    <li><a href="mailto:srandall@gmail.com" target="_blank">srandall1213@gmail.com</li>
-                    <li><a href="https://github.com/srandall1213" target="_blank"><img src="./GitHub-Mark-64px.png">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/sarah-randall-07a01a45/" target="_blank">LinkedIn</a></li>
+                    <li><ion-icon name="phone-portrait-outline" class="rotateicon"></ion-icon>385.502.9822</li>
+                    <li><a href="mailto:srandall@gmail.com" target="_blank"><ion-icon name="mail-outline" class="rotateicon"></ion-icon>srandall1213@gmail.com</li>
+                    <li><a href="https://github.com/srandall1213" target="_blank"><ion-icon name="logo-github" class="rotateicon"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/in/sarah-randall-07a01a45/" target="_blank"><ion-icon name="logo-linkedin" class="rotateicon"></ion-icon></a></li>
                 </ul>
             </div>   
         </section>
@@ -68,5 +74,8 @@
             Thank you for visiting!
         </footer>
     </main>
+    <!-- contact button logo scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
