@@ -39,7 +39,7 @@ h1 {
 /*Main Background*/
 .mainbg {
     background-color: white;
-    margin: 0px 40px 20px;
+    margin: 0px 50px 20px;
 }
 
 /*Nav Bar*/
@@ -121,6 +121,18 @@ section h2 {
     border: var(--imgborders); 
 }
 
+/*grows img on hover*/
+.work img{
+    transition: 1s ease;
+}
+
+.work img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
 /*Contact*/
 .contact {
     display: flex;
@@ -143,6 +155,12 @@ section h2 {
     padding: 5px 20px;
 }
 
+.contact a {
+    text-decoration: none;
+    color: var(--blackfont);
+}
+
+/*rotates icons on hover*/
 .rotateicon:hover {
     animation-name: rotate;
     animation-duration: 0.5s;
@@ -156,11 +174,6 @@ section h2 {
     100% {
         transform: rotate(360deg);
     }
-}
-
-.contact a {
-    text-decoration: none;
-    color: var(--blackfont);
 }
 
 /*Thanks for Visiting*/
