@@ -12,7 +12,7 @@
 
 **I faced challenges with getting my content perfectly centered as the screen got smaller, like my name on the page. Seems as though there is something in the way from getting it aligned perfectly in the middle. 
 
-**Features I would like to implement in the future would be to add more quality work to showcase on my page and create a more sleek user interface. 
+**Features I would like to implement in the future would be to add more quality work to showcase and a more sleek user interface. 
 
 ## Website Appearance
 
