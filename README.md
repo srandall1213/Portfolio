@@ -10,9 +10,9 @@
 
 **Through this project, I learned more about how flex boxes and media queries work. I learned how they differ, meaning flex boxes control how content takes up space and media queries control how the page is viewed/arranged as the screen gets resized. 
 
-**I faced challenges with getting my content perfectly centered as the screen got smaller, like my name on the page. Seems as though there was something in the way from getting it aligned perfectly in the middle. 
+**I faced challenges with getting my content perfectly centered as the screen got smaller, like my name on the page. Seems as though there is something in the way from getting it aligned perfectly in the middle. 
 
-**Features I would like to implement in the future would be to add more quality work to showcase on my page, as well as a more sleek user interface. 
+**Features I would like to implement in the future would be to add more quality work to showcase on my page and create a more sleek user interface. 
 
 ## Website Appearance
 
