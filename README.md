@@ -2,25 +2,17 @@
 
 ## Description
 
-**My motivation in completing this project was to have a portfolio to showcase my skills on order to land a career. 
-
-**I built this project because I wanted to create a page that I can add to as I progress in the University of Utah Full-Stack Developer Bootcamp. 
-
-**The problems solved while working on this project were getting a paragraph to wrap around an image while resizing the window and adjusting media queries to properly view my page as the screen gets smaller. 
-
-**Through this project, I learned more about how flex boxes and media queries work. I learned how they differ, meaning flex boxes control how content takes up space and media queries control how the page is viewed/arranged as the screen gets resized. 
-
-**I faced challenges with getting my content perfectly centered as the screen got smaller, like my name on the page. Seems as though there is something in the way from getting it aligned perfectly in the middle. 
-
-**Features I would like to implement in the future would be to add more quality work to showcase and a more sleek user interface. 
+ My motivation in completing this project was to have a portfolio to showcase my skills on order to land a career.  
 
 ## Website Appearance
 
-![Portfolio Screenshot](./Assets/Images/portfolioscreenshot.png)
+![Portfolio Screenshot](./Assets/Images/screenshot.png)
 
 ## Link to Portfolio: 
 https://srandall1213.github.io/Portfolio/
 
 ## Contributors
 
-Justin P, https://hijmp.gumroad.com/l/guvoi, color19.png (background image)
+📸 Background photo by <a href="https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NordWood Themes</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+  
