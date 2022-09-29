@@ -84,28 +84,3 @@ footer {
     padding: 20px;
     margin-top: -5px;
 }
-
-
-/* @media screen and (max-width: 991px) {
-     .portrait {
-        justify-content: center; 
-        align-items: center;
-        text-align: center;   
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .portrait {
-       justify-content: center; 
-       align-items: center;
-       text-align: center;   
-   }
-}
-
-@media screen and (max-width: 488px) {
-    .portrait {
-       justify-content: center; 
-       align-items: center;
-       text-align: center;   
-   }
-} */
