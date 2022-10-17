@@ -6,7 +6,7 @@
 
 ## Website Appearance
 
-![Portfolio Screenshot](./Assets/Images/screenshot.png)
+![Portfolio Screenshot](./assets/images/screenshot.png)
 
 ## Link to Portfolio: 
 https://srandall1213.github.io/Portfolio/
